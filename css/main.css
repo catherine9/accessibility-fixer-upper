@@ -34,7 +34,7 @@ a:hover {
   z-index: 2;
 }
 
-.nav a {
+.nav a:focus {
   color: #fff;
   text-decoration: none;
 }
