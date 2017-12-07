@@ -34,14 +34,19 @@ a:hover {
   z-index: 2;
 }
 
-.nav a:focus {
+.nav a {
+  display: inline-block;
+  padding: .5rem .75rem;
+
   color: #fff;
   text-decoration: none;
 }
 
+.nav a:focus,
 .nav a:hover {
   background-color: #fff;
   color: #113c00;
+  outline: 3px solid #000;
 }
 
 .about {
